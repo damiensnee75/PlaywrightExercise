@@ -39,7 +39,7 @@ The test.describe hook has been used to make two groups of tests in the userRegi
 
 ## Further Improvements
 
-At the moment the registration is considered if the /account_created page is reached. An additional check posting the email and password to the /verifyLogin endpoint would be added.
+At the moment the registration is considered successful if the /account_created page is reached. An additional check posting the email and password to the /verifyLogin endpoint would be added.
 With more time, additional tests would be created for Product Search and Filtering and Shopping Cart functionality. As access to some of this functionality requires the user to be logged in it would be necessary to authenticate the user before visiting and interacting with the relevant pages. In addition to test for logging in through the UI, a function would be created to login by API, removing the need for repetitive logging in via the UI. A function to capture browser logged in state, which could be reinstated when required would also be introduced.
 
 
