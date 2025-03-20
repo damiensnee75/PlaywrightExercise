@@ -2,7 +2,7 @@
 
 ## Overview
 
-Some example Playwright Automated Tests in Typescript
+Some example Playwright Automated Tests in Typescript created by Damien Snee
 
 ## Project setup
 
