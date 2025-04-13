@@ -16,4 +16,5 @@ jobs:
         with:
           node-version: "22"
       - run: npm install
+      - run: npm run install-playwright
       - run: npm run test
